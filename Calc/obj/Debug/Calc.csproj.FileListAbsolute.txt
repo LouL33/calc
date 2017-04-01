@@ -1,0 +1,14 @@
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\App.g.cs
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+C:\Users\Lou75\tiy\week-3\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Lou75\tiy\week-3\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\Lou75\tiy\week-3\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\MainWindow.g.cs
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\MainWindow.baml
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.g.resources
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.Cache
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Lou75\tiy\week-3\Calc\Calc\obj\Debug\Calc.pdb

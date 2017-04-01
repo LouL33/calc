@@ -1,0 +1,36 @@
+﻿<Window x:Class="Calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620.1" Width="451.8">
+    <Grid Margin="0,0,0,0">
+
+        <Button Content="%" HorizontalAlignment="Left" Margin="157,301,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.35,0.939" Click="Percent_Click" Height="54" FontSize="24" FontWeight="Bold"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="373,301,-119.8,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.178,-0.39" Click="Divid_Click" Height="54" FontSize="24" FontWeight="Bold"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="373,355,-119.8,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.713,-0.989" Click="Multi_Click_1" Height="57" FontSize="24" FontWeight="Bold"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="373,412,-119.8,0" VerticalAlignment="Top" Width="75" Click="Subtrack_Click" Height="60" FontSize="48" FontWeight="Bold"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="373,466,-2.4,0" VerticalAlignment="Top" Width="75" Click="Add_Click" Height="57" FontSize="36" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Name="input" BorderThickness="1.5" Margin="76,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="297" TextChanged="input_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Name="input2" BorderThickness="1.5" Height="27" Margin="76,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="297" TextChanged="input2_TextChanged"/>
+        <Button Content="=" HorizontalAlignment="Left" BorderThickness="1.5" Margin="373,522,-2.4,0" VerticalAlignment="Top" Width="75" FontSize="36" Background="{x:Null}" Height="60"/>
+        <TextBox HorizontalAlignment="Left" Name="AnswerDisplay" Height="42" Margin="139,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" FontSize="16" FontWeight="Bold" TextChanged="AnswerDisplay_TextChanged"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="232,466,0,0" VerticalAlignment="Top" Width="75" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="307,412,-44.8,0" VerticalAlignment="Top" Width="66" Height="54" RenderTransformOrigin="0.5,0.5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="232,412,0,0" VerticalAlignment="Top" Width="75" Height="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,523,0,0" VerticalAlignment="Top" Width="75" Height="59"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="232,355,0,0" VerticalAlignment="Top" Width="75" Height="58"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="307,350,-44.8,0" VerticalAlignment="Top" Width="66" Height="62"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="232,522,0,0" VerticalAlignment="Top" Width="75" Height="60"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="307,466,-44.8,0" VerticalAlignment="Top" Width="66" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="307,301,-44.8,0" VerticalAlignment="Top" Width="66" Height="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,466,0,0" VerticalAlignment="Top" Width="75" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="307,522,0,0" VerticalAlignment="Top" Width="66" Height="60"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="232,301,0,0" VerticalAlignment="Top" Width="75" Height="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,412,0,0" VerticalAlignment="Top" Width="75" Height="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,355,0,0" VerticalAlignment="Top" Width="75" Height="57"/>
+
+    </Grid>
+</Window>
